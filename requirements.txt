@@ -1,0 +1,9 @@
+# Dependências do projeto: Simulação Educacional de Ransomware e Keylogger
+# Instale com: pip install -r requirements.txt
+
+# Criptografia simétrica (Fernet/AES) — usada na simulação de ransomware
+cryptography>=42.0.0
+
+# Captura de teclas — usada apenas na simulação INTERATIVA e CONSENTIDA de keylogger
+# Não instala hooks globais; operação visível e controlada pelo usuário
+pynput>=1.7.7

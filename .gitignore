@@ -1,0 +1,29 @@
+# Nunca versionar arquivos cifrados reais, chaves ou dados pessoais
+*.enc
+*.key
+chave_laboratório.key
+
+# Pasta de arquivos de teste gerados localmente (não pertencem ao repo)
+arquivos_teste/gerados/
+
+# Log do keylogger (contém o que você digitou — nunca envie)
+*.log
+keylogger_simulado/capturas/
+
+# Ambiente virtual Python
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Lixo de SO / editores
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
